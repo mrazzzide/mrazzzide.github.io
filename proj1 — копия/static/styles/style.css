@@ -1,0 +1,201 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Анимационный главный экран */
+.hero {
+    background-image: url('https://avatars.yandex.net/get-music-content/10960834/16ea1f56.a.31785316-1/m1000x1000?webp=false'); /* Замените на свою картинку */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #c10000;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.carousel-item {
+    height: 500px; /* Задайте желаемую высоту карусели */
+
+}
+
+.carousel-item img {
+    object-fit: cover; /* Заполняет контейнер, обрезая изображение если необходимо */
+    height: 100%;
+    width: 100%;
+}
+
+#biography {
+    padding: 20px;
+}
+
+
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand img {
+    vertical-align: middle;
+}
+
+/* <!-- Карусель фотографий --> */
+
+    /* Добавляем отступы по бокам карусели */
+    .carousel-container {
+        width: 80%; /* Измените значение по своему вкусу */
+        margin: 0 auto; /* Центрируем карусель по горизонтали */
+    }
+
+    /* Дополнительно стилизуем, чтобы изображения не выходили за рамки контейнера */
+    .carousel-inner {
+        overflow: hidden;
+    }
+
+    .carousel-item img {
+        width: 100%; /* Заставляем изображения занимать всю ширину carousel-item */
+        object-fit: cover; /* Обрезаем изображения, чтобы они заполняли контейнер */
+        max-height: 500px; /* Установите максимальную высоту, чтобы карусель не была слишком высокой */
+    }
+
+    .logo {
+        text-align:center; 
+        display:contents;
+    }
+
+    body {
+        font-family: 'Roboto Slab', serif;
+        background-color: #f8f9fa; /* Светлый фон */
+        color: #343a40; /* Темный цвет текста */
+        line-height: 1.6;
+    }
+
+    #biography {
+        margin: 20px auto;
+        max-width: 800px;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border: 2px solid #e9ecef; /* Рамка */
+    }
+
+    #biography h2 {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #e91e63; /* Акцентный цвет для заголовка */
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #biography p {
+        text-indent: 20px; /* Отступ для абзацев */
+    }
+
+    /* Интересные фишки */
+    .highlight {
+        background-color: #fff3cd; /* Светло-желтый фон для выделения */
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .blockquote {
+        border-left: 5px solid #e91e63; /* Акцентная линия слева */
+        padding-left: 20px;
+        font-style: italic;
+        margin: 15px 0;
+        color: #6c757d; /* Приглушенный цвет для цитат */
+    }
+
+    body {
+        background-color: #f8f9fa; /* Светлый фон */
+        color: #343a40; /* Тёмный цвет текста */
+        font-family: 'Roboto Slab', serif; /* Красивый шрифт */
+        line-height: 1.6;
+    }
+
+    .album-section {
+        padding: 30px;
+        background-color: #fff; /* Белый фон для секций альбомов */
+        border-radius: 10px; /* Скругленные углы */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень */
+        margin-bottom: 20px;
+    }
+
+    .album-title {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #e91e63; /* Акцентный цвет */
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .album-cover {
+        max-width: 200px;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+    }
+
+    .tracklist {
+        list-style: none;
+        padding: 0;
+    }
+
+    .tracklist li {
+        margin-bottom: 8px;
+        padding-left: 25px;
+        position: relative;
+    }
+
+    .tracklist li::before {
+        content: "\f001"; /* Иконка ноты (Font Awesome) */
+        font-family: FontAwesome;
+        position: absolute;
+        left: 0;
+        top: 2px;
+        color: #6c757d; /* Цвет иконки */
+    }
+
+    .interesting-fact {
+        font-style: italic;
+        color: #6c757d;
+    }
+
+    .container {
+        max-width: 960px; /* Ограничение ширины контента */
+        margin: 0 auto;
+    }
+
+    .back-link {
+        display: inline-block;
+        margin-top: 20px;
+        color: #007bff;
+    }
